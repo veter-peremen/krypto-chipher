@@ -1,0 +1,55 @@
+﻿<Window x:Class="kursach2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kursach2"
+        mc:Ignorable="d"
+        ResizeMode="CanMinimize"
+        Title="MasterKey" Height="450" Width="800">
+    <Grid Background="#FF2E2E2E">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="textinput" HorizontalAlignment="Left" Height="100" Margin="180,64,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="440" Background="{x:Null}" BorderBrush="White" BorderThickness="2,2,2,2" Foreground="White" FontFamily="Century Gothic"/>
+        <TextBox x:Name="textoutput" Margin="180,204,0,0" TextWrapping="Wrap" Text="TextBox" Background="{x:Null}" BorderBrush="White" BorderThickness="2,2,2,2" Foreground="White" FontFamily="Century Gothic" HorizontalAlignment="Left" Width="600" Height="200" VerticalAlignment="Top"/>
+        <Button x:Name="count" Content="Рассчитать" Margin="640,64,0,0" BorderThickness="2,2,2,2" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Century Gothic" FontSize="20" Click="count_Click" HorizontalAlignment="Left" Width="140" Height="60" VerticalAlignment="Top"/>
+        <RadioButton x:Name="zaradio" Content="Зашифровать" Margin="640,129,0,0" Foreground="White" BorderBrush="{x:Null}" FontFamily="Century Gothic" IsChecked="True" HorizontalAlignment="Left" Width="106" Height="14" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rasradio" Content="Расшифровать" Margin="640,144,0,0" Foreground="White" BorderBrush="{x:Null}" FontFamily="Century Gothic" HorizontalAlignment="Left" Width="114" Height="14" VerticalAlignment="Top"/>
+        <Button x:Name="langbut" Content="Кириллица" Margin="480,34,0,0" BorderThickness="1,1,1,1" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Century Gothic" Click="langbut_Click" HorizontalAlignment="Left" Width="140" Height="20" VerticalAlignment="Top"/>
+        <Label x:Name="labl" Content="Алфавит:" HorizontalAlignment="Left" Margin="400,29,0,0" VerticalAlignment="Top" Height="25" Width="70" FontFamily="Century Gothic" Foreground="White" RenderTransformOrigin="0.467,0.802"/>
+
+        <Label Content="MasterKey" HorizontalAlignment="Left" Margin="20,9,0,0" VerticalAlignment="Top" Height="55" Width="161" FontFamily="Century Gothic" Background="{x:Null}" Foreground="White" FontSize="28" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-9.495"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="4.599"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="labk" Content="Ключ:&#xD;&#xA;" HorizontalAlignment="Left" Margin="640,29,0,0" VerticalAlignment="Top" Height="25" Width="45" FontFamily="Century Gothic" Foreground="White" RenderTransformOrigin="0.467,0.802"/>
+        <TextBox x:Name="key" HorizontalAlignment="Left" Margin="685,34,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="95" Height="20" Background="{x:Null}" BorderBrush="White" BorderThickness="2,2,2,2" FontFamily="Century Gothic" Foreground="White"/>
+        <TextBlock x:Name="bio" HorizontalAlignment="Left" Margin="20,244,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="160" Width="140" FontFamily="Century Gothic" Foreground="White"/>
+        <Button x:Name="paste" Content="Вставить из буфера" HorizontalAlignment="Left" Margin="180,44,0,0" VerticalAlignment="Top" Width="120" Click="pastebut" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White"/>
+        <Button x:Name="clear" Content="Очистить" HorizontalAlignment="Left" Margin="300,44,0,0" VerticalAlignment="Top" Width="80" Click="clearbut" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White"/>
+        <Button x:Name="copy" Content="Копировать в буфер" Margin="660,184,0,0" Click="copybut" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" HorizontalAlignment="Left" Width="120" Height="20" VerticalAlignment="Top"/>
+
+        <ListBox x:Name="LB" Margin="20,64,0,0" Background="{x:Null}" Foreground="White" BorderBrush="White" SelectedIndex="0" BorderThickness="2,2,2,2" HorizontalAlignment="Left" Width="140" Height="160" VerticalAlignment="Top" FontFamily="Century Gothic" SelectionChanged="LB_SelectionChanged">
+            <ListBoxItem Content="Шифр Атбаш"/>
+            <ListBoxItem Content="Шифр Цезаря"/>
+            <ListBoxItem Content="Шифр Виженер"/>
+            <ListBoxItem Content="Клавиатурный сдвиг"/>
+            <ListBoxItem Content="Шифр Тритемиуса"/>
+            <ListBoxItem Content="Ограждение рельс"/>
+            <ListBoxItem Content="Шифр &quot;Сансара&quot;"/>
+            <ListBoxItem Content="Языковая замена"/>
+        </ListBox>
+
+    </Grid>
+
+</Window>

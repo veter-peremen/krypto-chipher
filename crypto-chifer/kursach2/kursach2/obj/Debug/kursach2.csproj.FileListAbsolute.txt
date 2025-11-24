@@ -1,0 +1,17 @@
+C:\Users\infer\source\repos\kursach2\kursach2\bin\Debug\kursach2.exe.config
+C:\Users\infer\source\repos\kursach2\kursach2\bin\Debug\kursach2.exe
+C:\Users\infer\source\repos\kursach2\kursach2\bin\Debug\kursach2.pdb
+C:\Users\infer\source\repos\kursach2\kursach2\obj\Debug\kursach2.csproj.AssemblyReference.cache
+C:\Users\infer\source\repos\kursach2\kursach2\obj\Debug\MainWindow.g.cs
+C:\Users\infer\source\repos\kursach2\kursach2\obj\Debug\App.g.cs
+C:\Users\infer\source\repos\kursach2\kursach2\obj\Debug\kursach2_MarkupCompile.cache
+C:\Users\infer\source\repos\kursach2\kursach2\obj\Debug\kursach2_MarkupCompile.lref
+C:\Users\infer\source\repos\kursach2\kursach2\obj\Debug\MainWindow.baml
+C:\Users\infer\source\repos\kursach2\kursach2\obj\Debug\kursach2.g.resources
+C:\Users\infer\source\repos\kursach2\kursach2\obj\Debug\kursach2.Properties.Resources.resources
+C:\Users\infer\source\repos\kursach2\kursach2\obj\Debug\kursach2.csproj.GenerateResource.cache
+C:\Users\infer\source\repos\kursach2\kursach2\obj\Debug\kursach2.csproj.CoreCompileInputs.cache
+C:\Users\infer\source\repos\kursach2\kursach2\obj\Debug\kursach2.exe
+C:\Users\infer\source\repos\kursach2\kursach2\obj\Debug\kursach2.pdb
+C:\Users\infer\source\repos\kursach2\kursach2\obj\Debug\descr.baml
+C:\Users\infer\source\repos\kursach2\kursach2\obj\Debug\kursach2.Resource1.resources
